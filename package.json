@@ -1,0 +1,24 @@
+{
+  "name": "@teages/renovate-config",
+  "description": "Teages' shared Renovate config presets",
+  "license": "MIT",
+  "repository": "Teages/renovate-config",
+  "scripts": {
+    "fmt": "oxfmt",
+    "test": "renovate-config-validator ./default.json"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.66.0",
+    "renovate": "^44.69.8"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "bun",
+      "version": "1.4.2"
+    },
+    "runtime": {
+      "name": "bun",
+      "version": "1.4.2"
+    }
+  }
+}
